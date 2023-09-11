@@ -10,6 +10,6 @@ $(document).ready(function() {
     // Event delegation for animated-page buttons
     $("body").on("click", ".fadeHome", function(event) {
         event.preventDefault();
-        loadAndFadeInPages("../index.html");
+        loadAndFadeInPages("index.html");
     });
 });

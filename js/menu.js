@@ -11,17 +11,17 @@ $(document).ready(function() {
     // Event delegation for menu buttons
     $("body").on("click", ".fadeAbout", function(event) {
         // Load and fade in content for About
-        loadAndFadeInContent("../Pages/about.html");
+        loadAndFadeInContent("Pages/about.html");
     });
 
 
     $("body").on("click", ".fadeEvents", function(event) {
         // Load and fade in content for Events
-        loadAndFadeInContent("../Pages/exhibitions-events.html");
+        loadAndFadeInContent("Pages/exhibitions-events.html");
     });
 
     $("body").on("click", ".fadeResume", function(event) {
         // Load and fade in content for Resume
-        loadAndFadeInContent("../Pages/resume.html");
+        loadAndFadeInContent("Pages/resume.html");
     });
 });
