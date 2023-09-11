@@ -33,42 +33,42 @@ $(document).ready(function() {
     // Event delegation for animated-page buttons
     $(".page-container").on("click", "#fadeAnim", function(event) {
         event.preventDefault();
-        loadAndFadeInPages("../Portfolio_Website/Pages/animation.html");
+        loadAndFadeInPages("../Pages/animation.html");
     });
 
     $(".page-container").on("click", "#fadeDance", function(event) {
         event.preventDefault();
-        loadAndFadeInPages("../Portfolio_Website/Pages/dance.html");
+        loadAndFadeInPages("../Pages/dance.html");
     });
     // Event delegation for animated-page buttons
     $(".page-container").on("click", "#fadeDes", function(event) {
         event.preventDefault();
-        loadAndFadeInPages("../Portfolio_Website/Pages/design.html");
+        loadAndFadeInPages("../Pages/design.html");
     });
 
     $(".page-container").on("click", "#fadeDraw", function(event) {
         event.preventDefault();
-        loadAndFadeInPages("../Portfolio_Website/Pages/drawing.html");
+        loadAndFadeInPages("../Pages/drawing.html");
     });
     // Event delegation for animated-page buttons
     $(".page-container").on("click", "#fadeGameDev", function(event) {
         event.preventDefault();
-        loadAndFadeInPages("../Portfolio_Website/Pages/game-development.html");
+        loadAndFadeInPages("../Pages/game-development.html");
     });
 
     $(".page-container").on("click", "#fadePaint", function(event) {
         event.preventDefault();
-        loadAndFadeInPages("../Portfolio_Website/Pages/painting.html");
+        loadAndFadeInPages("../Pages/painting.html");
     });
 
     $(".page-container").on("click", "#fadePhoto", function(event) {
         event.preventDefault();
-        loadAndFadeInPages("../Portfolio_Website/Pages/photography.html");
+        loadAndFadeInPages("../Pages/photography.html");
     });
     // Event delegation for animated-page buttons
     $(".page-container").on("click", "#fadeSculpt", function(event) {
         event.preventDefault();
-        loadAndFadeInPages("../Portfolio_Website/Pages/sculpting.html");
+        loadAndFadeInPages("../Pages/sculpting.html");
     });
 
 });
