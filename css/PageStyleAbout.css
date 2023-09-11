@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+.header {
+  text-align: center; /* center the text */
+}
+
+/* Increase the font size of the <h1> element */
+h1 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 8vw;
+  text-align: center; /* center the text */
+  color:#8F312D;
+}
+
+body {
+  font-family: 'Comfortaa', sans-serif;
+  background-color: #FFE1E1;
+  color: white;
+}
+p{
+  margin-left: 10vw;
+  margin-right: 5vw;
+  text-align: justify;
+font-size: large;
+}
+.buttonMenu {
+  background-color:#6E5750;
+  font-size: 2.5vw;
+  font-family: 'Comfortaa', sans-serif;
+  color:white;
+  transition-duration: 0.4s;
+  border:none;
+  padding: calc(25px + 1.5625vw); /* Adjusted padding: 150px top/bottom, 50px left/right */
+  text-decoration: none;
+  cursor: pointer;
+  opacity:1;
+  display: inline-block;
+  width: 33.4%;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+  overflow: hidden;
+  text-align: center; /* center the text */
+  height: auto;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  margin: -2.5px; /* 4px is the total horizontal space between buttons (2px on each side) */
+  letter-spacing: normal; /* Reset the letter spacing */
+}
+
+.buttonMenu:hover {
+  opacity: 0.6;
+
+}
+
+.bubble{
+  background-color: #6E5750;
+  border-radius: 8vw;
+  padding:1%;
+}
+#me{
+  border-radius: 2vw;
+  height: 60vh;
+  width:20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: 5vw;
+  clear: left;
+}
+.icon{
+  width:3vw;
+  height:6vh;
+  float:right;
+  margin-right:1vw;
+}
+.icon:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+.fadeHome{
+  float: left;
+  top:0;
+  left:0;
+  margin-left: 1vw;
+  width:3vw;
+  height:6vh;
+}
+.fadeHome:hover {
+  opacity: 0.6;
+  transition: opacity 0.5s;
+}
+.footer {
+  padding: 25px; /* some padding */
+  text-align: center; /* center the text */
+}
+  .parallax {
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    font-size: 200%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+  }
+  
+  .parallax__group {
+    position: relative;
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
